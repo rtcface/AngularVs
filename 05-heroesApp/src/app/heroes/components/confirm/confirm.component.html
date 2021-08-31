@@ -1,0 +1,15 @@
+<h1>Are you sure?</h1>
+<hr>
+
+<p>
+    you're about to delete the hero width a name: "{{data.superhero}}"
+</p>
+<br>
+Do you wish to continue?
+<br>
+<br>
+<div>
+    <button mat-button (click)="deleteHero()" color="warn">Yes, delete!</button>    
+
+    <button mat-button (click)="cancel()" >Cancel!</button>
+</div>
